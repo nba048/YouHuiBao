@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_comtent_order_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wheel_bg">
+
+        <android.support.v4.view.PagerTabStrip
+            android:id="@+id/PagerTabStrip"
+            android:layout_width="match_parent"
+            android:layout_height="35.0dip"
+            android:background="@drawable/wheel_bg"
+            android:gravity="center"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:textColor="@color/main_black"
+            android:textSize="16.0dip" />
+    </android.support.v4.view.ViewPager>
+
+    <TextView
+        android:textColor="@color/app_white"
+        android:id="@+id/tv_content_"
+        android:layout_width="400dip"
+        android:layout_height="300dip"
+        android:layout_marginTop="35.0dip"
+        android:layout_marginLeft="70dip"
+        android:text="content" />
+</RelativeLayout>

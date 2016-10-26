@@ -1,0 +1,19 @@
+{
+    "code": 200,
+    "type": 0,
+    "sessionId": 1234567,
+    "models": [
+        {
+            "modelId": 0,
+            "modelName": "发售系统1"
+        },
+        {
+            "modelId": 1,
+            "modelName": "发售系统2"
+        },
+        {
+            "modelId": 2,
+            "modelName": "发售系统3"
+        }
+    ]
+}

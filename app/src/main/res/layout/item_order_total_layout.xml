@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/app_white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/bsFlag"
+            android:layout_width="65.0dip"
+            android:layout_height="65.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="15.0dip"
+            android:background="@mipmap/ic_recorder_talk1"
+            android:gravity="center"
+            android:text="买"
+            android:textColor="#ff3200" />
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15.0dip"
+            android:layout_marginTop="15.0dip"
+            android:layout_weight="1.0"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/commodityId"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="商品ID"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="12.0dip" />
+                    <TextView
+                        android:id="@+id/CommodityName"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="商品名称"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16.0dip" />
+
+
+                    <TextView
+                        android:id="@+id/totalNum"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_marginTop="5.0dip"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="委托数总量"
+                        android:textColor="@color/main_black"
+                        android:textSize="12.0dip" />
+
+                    <TextView
+                        android:id="@+id/tradeMoney"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="30dip"
+                        android:layout_marginTop="10.0dip"
+                        android:drawableLeft="@mipmap/ic_list_money_red"
+                        android:drawablePadding="5dip"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:singleLine="true"
+                        android:text="总金额"
+                        android:textColor="#ff3200"
+                        android:textSize="14.0dip" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_more"
+                android:layout_width="70.0dip"
+                android:layout_height="32.0dip"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="10.0dip"
+                android:background="@drawable/bg_selector_green_button"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="详情"
+                android:textColor="@color/app_white"
+                android:textSize="13.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:background="@color/rank_list_gray" />
+</LinearLayout>

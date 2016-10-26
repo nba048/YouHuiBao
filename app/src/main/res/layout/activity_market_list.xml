@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_common"
+    android:orientation="vertical" >
+
+    <include layout="@layout/view_title" />
+
+    <com.ecloud.pulltozoomview.PullToZoomListViewEx
+        android:id="@+id/zoom_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_bg_gray"
+        android:cacheColorHint="@color/cache_Color_Hint"
+        android:divider="@null"
+        android:dividerHeight="0.0dip"
+        android:scrollbars="none" />
+
+</LinearLayout>

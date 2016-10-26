@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginTop="5.0dip"
+        android:background="@drawable/bg_white_fillet"
+        android:padding="5dip">
+
+        <TextView
+            android:id="@+id/iv_image"
+            android:layout_width="65.0dip"
+            android:layout_height="65.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="20.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="20.0dip"
+            android:text="type"
+            android:gravity="center"
+            android:textColor="#53cac3"
+            android:background="@mipmap/ic_recorder_talk1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tv_price"
+            android:layout_toRightOf="@+id/iv_image"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingBottom="9dip">
+
+            <TextView
+                android:id="@+id/tv_recharge"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:maxLines="2"
+                android:minLines="2"
+                android:gravity="center_vertical"
+                android:text="tv_recharge"
+                android:textColor="@color/light_black"
+                android:textSize="19.0dip" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

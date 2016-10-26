@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginTop="5.0dip"
+        android:background="@drawable/bg_white_fillet"
+        android:padding="5dip">
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="65.0dip"
+            android:layout_height="65.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="20.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="20.0dip"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:drawablePadding="5.0dip"
+            android:singleLine="true"
+            android:text="timer"
+            android:textColor="@color/main_color"
+            android:textSize="12.0dip" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tv_price"
+            android:layout_toRightOf="@+id/iv_image"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingBottom="9dip">
+
+            <TextView
+                android:id="@+id/tv_recharge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:minLines="2"
+                android:text="tv_recharge"
+                android:textColor="@color/light_black"
+                android:textSize="15.0dip" />
+
+            <TextView
+                android:id="@+id/tv_bonus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:singleLine="true"
+                android:text="tv_bonus"
+                android:textColor="@color/main_color"
+                android:textSize="13.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "id": "1",
+      "startTime": "1476058397208",
+      "endTime": "1476088397208",
+      "tradeNum": "66",
+      "firmId": "9527"
+    },
+    {
+      "id": "2",
+      "startTime": "1476058397208",
+      "endTime": "1476088397208",
+      "tradeNum": "77",
+      "firmId": "9528"
+    },
+    {
+      "id": "3",
+      "startTime": "1476058397208",
+      "endTime": "1476088397208",
+      "tradeNum": "88",
+      "firmId": "007"
+    },
+    {
+      "id": "4",
+      "startTime": "1476058397208",
+      "endTime": "1476088397208",
+      "tradeNum": "99",
+      "firmId": "120"
+    },
+    {
+      "id": "5",
+      "startTime": "1476058397208",
+      "endTime": "1476088397208",
+      "tradeNum": "17",
+      "firmId": "13333"
+    },
+    {
+      "id": "6",
+      "startTime": "1476058397208",
+      "endTime": "1476088397208",
+      "tradeNum": "71",
+      "firmId": "0006"
+    },
+    {
+      "id": "7",
+      "startTime": "1476058397208",
+      "endTime": "1476088397208",
+      "tradeNum": "63",
+      "firmId": "0008"
+    },
+    {
+      "id": "8",
+      "startTime": "1476058397208",
+      "endTime": "1476088397208",
+      "tradeNum": "36",
+      "firmId": "119"
+    }
+  ]
+}

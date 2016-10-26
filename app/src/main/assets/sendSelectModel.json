@@ -1,0 +1,37 @@
+{
+    "code": 200,
+    "markets": [
+        {
+            "marketId": 0,
+            "marketName": "中国艺交所金属艺术品交易中心_0"
+        },
+        {
+            "marketId": 1,
+            "marketName": "中国艺交所金属艺术品交易中心_1"
+        },
+        {
+            "marketId": 2,
+            "marketName": "中国艺交所金属艺术品交易中心_2"
+        },
+        {
+            "marketId": 3,
+            "marketName": "中国艺交所金属艺术品交易中心_3"
+        },
+        {
+            "marketId": 4,
+            "marketName": "中国艺交所金属艺术品交易中心_4"
+        },
+        {
+            "marketId": 5,
+            "marketName": "中国艺交所金属艺术品交易中心_5"
+        },
+        {
+            "marketId": 6,
+            "marketName": "中国艺交所金属艺术品交易中心_6"
+        },
+        {
+            "marketId": 7,
+            "marketName": "中国艺交所金属艺术品交易中心_7"
+        }
+    ]
+}

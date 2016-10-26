@@ -1,0 +1,35 @@
+{
+  "code": 200,
+  "startDate": "2016-9-21",
+  "endDate": "2016-9-22",
+  "data": [
+    {
+      "commodityId": "0003",
+      "bsFlag": "订立",
+      "commodityName": "客家话",
+      "totalNum": "33",
+      "totalMoney": 123
+    },
+    {
+      "commodityId": "0004",
+      "bsFlag": "转让",
+      "commodityName": "趾半遮",
+      "totalNum": "44",
+      "totalMoney": 456
+    },
+    {
+      "commodityId": "0006",
+      "bsFlag": "订立",
+      "commodityName": "发动机",
+      "totalNum": "44",
+      "totalMoney": 567
+    },
+    {
+      "commodityId": "0009",
+      "bsFlag": "转让",
+      "commodityName": "欧亚大陆",
+      "totalNum": "44",
+      "totalMoney": 789
+    }
+  ]
+}

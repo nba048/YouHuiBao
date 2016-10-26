@@ -1,0 +1,21 @@
+{
+    "code": 200,
+    "functions": [
+        {
+            "name": "委托历史",
+            "url": "http://127.0.0.1:8081/LogWeb/order/list.do"
+        },
+        {
+            "name": "市场委托情况汇总",
+            "url": "http://127.0.0.1:8081/LogWeb/order/orderTotal.do"
+        },
+        {
+            "name": "成交历史",
+            "url": "http://127.0.0.1:8081/LogWeb/trade/list.do"
+        },
+        {
+            "name": "市场成交情况汇总",
+            "url": "http://127.0.0.1:8081/LogWeb/trade/tradeTotal.do"
+        }
+    ]
+}

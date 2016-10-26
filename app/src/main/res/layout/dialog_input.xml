@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@mipmap/ic_login"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="8dip">
+
+    <TextView
+        android:id="@+id/tv_market"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="5.0dip"
+        android:paddingTop="20dip"
+        android:text="核对市场"
+        android:textColor="@color/app_white"
+        android:textSize="14dip" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5.0dip">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="35dip">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40.0dip"
+                android:background="@drawable/bg_edittext_login"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="2dip">
+
+                <LinearLayout
+                    android:layout_width="30dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5.0dip"
+                        android:src="@mipmap/ic_password_white" />
+                </LinearLayout>
+
+
+                <EditText
+                    android:id="@+id/et_firmId"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="10.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@null"
+                    android:hint="交易商账号"
+                    android:imeOptions="actionNext"
+                    android:maxLength="12"
+                    android:singleLine="true"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="#80ffffff"
+                    android:textSize="14.0dip"/>
+
+                <ImageView
+                    android:id="@+id/iv_clear"
+                    android:layout_width="20.0dip"
+                    android:layout_height="20.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginRight="15.0dip"
+                    android:src="@mipmap/ic_clear_text"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40.0dip"
+                android:layout_marginTop="10.0dip"
+                android:background="@drawable/bg_edittext_login"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dip">
+
+                <LinearLayout
+                    android:layout_width="30dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5.0dip"
+                        android:src="@mipmap/ic_password_white" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0.5dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="15.0dip"
+                    android:layout_marginTop="15.0dip"
+                    android:alpha="0.5"
+                    android:background="@android:color/white" />
+
+                <EditText
+                    android:id="@+id/et_password"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:background="@null"
+                    android:hint="交易商密码"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword"
+                    android:maxLength="16"
+                    android:singleLine="true"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="#80ffffff"
+                    android:textSize="12.0dip" />
+
+                <ImageView
+                    android:id="@+id/iv_clear2"
+                    android:layout_width="20.0dip"
+                    android:layout_height="20.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginRight="15.0dip"
+                    android:src="@mipmap/ic_clear_text"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/rl_dialog_btn_left"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/bg_selector_gray2_button"
+                    android:padding="8.0dip">
+
+                    <TextView
+                        android:id="@+id/tv_dialog_btn_left"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="取消"
+                        android:textColor="@color/app_white"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_dialog_btn_right"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/bg_selector_corner_green"
+                    android:padding="8.0dip">
+
+                    <TextView
+                        android:id="@+id/tv_dialog_btn_right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="确定"
+                        android:textColor="@color/app_white"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="140dip"
+        android:background="@color/main_color"
+        android:paddingBottom="3dip" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="fill_parent"
+            android:layout_height="43.0dip"
+            android:gravity="center_vertical"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:text="市场热点："
+            android:textColor="@color/light_gray"
+            android:textSize="14.0dip" />
+
+        <ListView
+            android:id="@+id/lv_content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/title"
+            android:background="@color/app_bg_gray"
+            android:cacheColorHint="@color/cache_Color_Hint"
+            android:divider="@null"
+            android:dividerHeight="0.0dip"
+            android:listSelector="@drawable/list_selector"
+            android:scrollbars="none" />
+    </LinearLayout>
+
+</LinearLayout>

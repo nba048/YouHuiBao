@@ -1,0 +1,49 @@
+{
+  "code": 200,
+  "startDate": "",
+  "endDate": "",
+  "data": [
+    {
+      "commodityId": "0001",
+      "CommodityName": "tom",
+      "tradeType": "买",
+      "totalNum": "22",
+      "totalMoney": "99.99"
+    },
+    {
+      "commodityId": "0002",
+      "CommodityName": "jarry",
+      "tradeType": "卖",
+      "totalNum": "33",
+      "totalMoney": "88.88"
+    },
+    {
+      "commodityId": "0003",
+      "CommodityName": "jack",
+      "tradeType": "买",
+      "totalNum": "44",
+      "totalMoney": "88.88"
+    },
+    {
+      "commodityId": "0004",
+      "CommodityName": "rous",
+      "tradeType": "卖",
+      "totalNum": "55",
+      "totalMoney": "88.88"
+    },
+    {
+      "commodityId": "0005",
+      "CommodityName": "bbs",
+      "tradeType": "买",
+      "totalNum": "66",
+      "totalMoney": "88.88"
+    },
+    {
+      "commodityId": "0006",
+      "CommodityName": "cat",
+      "tradeType": "卖",
+      "totalNum": "77",
+      "totalMoney": "88.88"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_geek_base_info"
+        android:layout_width="fill_parent"
+        android:layout_height="90.0dip"
+        android:layout_alignParentBottom="true"
+        android:background="#33ffffff"
+        android:gravity="center_vertical" >
+
+        <View
+            android:id="@+id/iv_avatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip" />
+
+        <LinearLayout
+            android:id="@+id/ll_geek_info"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10.0dip"
+            android:layout_toLeftOf="@+id/ll_score"
+            android:layout_toRightOf="@+id/iv_avatar"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_geek_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5.0dip"
+                android:drawableRight="@mipmap/ic_user_info_edit"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#fffefefe"
+                android:textSize="16.0dip" />
+
+            <TextView
+                android:id="@+id/tv_resume_complete_percentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#fffefefe"
+                android:textSize="12.0dip" />
+
+            <TextView
+                android:id="@+id/tv_geek_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#fffefefe"
+                android:textSize="12.0dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_score"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="1.0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="14.0dip"
+                android:layout_marginTop="14.0dip"
+                android:background="@drawable/bg_user_info_hidden_line_1" />
+
+            <TextView
+                android:id="@+id/tv_score"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginRight="10.0dip"
+                android:gravity="center_vertical"
+                android:text="\ 0"
+                android:textColor="@color/app_white"
+                android:textSize="30.0dip" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10.0dip"
+                android:src="@mipmap/ic_dollar" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

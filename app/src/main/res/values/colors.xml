@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#fff</color>
+
+    <color name="main_color">#ff53cac3</color>
+    <color name="main_color_pre">#9953cac3</color>
+    <color name="main_black">#ff000000</color>
+    <color name="main_red">#ff3200</color>
+    <color name="app_white">#ffffffff</color>
+    <color name="app_green">#ff53cac3</color>
+    <color name="main_divide">#ffe2e5e5</color>
+    <color name="light_gray">#ff797979</color>
+    <color name="bg_common">#ffe9efef</color>
+    <color name="item_pressed_color">#ffe1e3e2</color>
+    <color name="hint_gray">#ffc3c3c3</color>
+    <color name="tool_show">#fff4f7f7</color>
+    <color name="app_bg_gray">#ffe9efef</color>
+    <color name="cache_Color_Hint">#00000000</color>
+    <color name="light_black">#ff303030</color>
+    <color name="rank_list_gray">#ffd3dede</color>
+
+
+    <drawable name="gray">#FF808080</drawable>
+    <drawable name="white">#FFFFFFFF</drawable>
+    <drawable name="blue">#FF0000FF</drawable>
+    <drawable name="black">#FF000000</drawable>
+    <drawable name="pink">#FFFFC0Cb</drawable>
+    <drawable name="red">#FFFF0000</drawable>
+    <drawable name="orange">#FFFF8D00</drawable>
+    <drawable name="yellow">#FFFFFF00</drawable>
+    <drawable name="green">#FF00FF00</drawable>
+    <drawable name="lightyellow">#FFFFFFE0</drawable>
+    <drawable name="lightblue">#FFE3EEFB</drawable>
+    <drawable name="oceanblue">#FF5271A5</drawable>
+    <drawable name="lightgreen">#FF96FF00</drawable>
+    <drawable name="grassgreen">#FF009600</drawable>
+    <drawable name="lightgray">#FFD3D3D3</drawable>
+    <drawable name="darkgray">#00535252</drawable>
+
+    <color name="news_red">#ffe16162</color>
+</resources>
