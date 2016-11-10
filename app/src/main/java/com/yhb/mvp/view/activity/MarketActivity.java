@@ -46,13 +46,13 @@ public class MarketActivity extends BaseActivity {
     @Override
     protected void onLCreate() {
         mFunctions = new ArrayList<>();
-        if (ProjectApp.getCurrentUser().getType().equals("1")) {
-            Function item1 = new Function();
-            item1.setName("频繁交易");
-            item1.setUrl(INetworkModel.host + INetworkModel.frequent_list);
-            mFunctions.add(item1);
-        }
         try {
+            if (ProjectApp.getCurrentUser().getType().equals("1")) {
+                Function item1 = new Function();
+                item1.setName("频繁交易");
+                item1.setUrl(INetworkModel.host + INetworkModel.frequent_list);
+                mFunctions.add(item1);
+            }
             BmobQuery<Function> query = new BmobQuery<Function>();
             //按照时间降序
             query.findObjects(new FindListener<Function>() {

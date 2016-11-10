@@ -58,8 +58,8 @@ public class TradeTotalAdapter extends LBaseAdapter<TradeSituation> {
             holder.bsFlag.setTextColor(Color.parseColor("#53cac3"));
             holder.bsFlag.setBackgroundResource(R.mipmap.ic_recorder_talk1);
         }
-        holder.commodityId.setText("ID: " + holder.data.getCommodityName());
-        holder.CommodityName.setText("商品: " + holder.data.getCommodityId());
+        holder.commodityId.setText("ID: " + holder.data.getCommodityId());
+        holder.CommodityName.setText("商品: " + holder.data.getCommodityName());
         holder.totalNum.setText("成交总量: " + holder.data.getTotalNum());
         holder.tradeMoney.setText("" + Tools.formatNumber(Double.parseDouble(holder.data.getTotalMoney())) + " 总");
         holder.tvMore.setOnClickListener(new View.OnClickListener() {
